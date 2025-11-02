@@ -28,8 +28,22 @@
                 </ul>
                 <ul class="secondary-nav-links">
                     <li><a href="#">Sign in</a></li>
-                    <li><a href="#"></a>Sign Up</li>
+                    <li onclick= showsidebar()><a href="#">Sign Up</a></li>
                 </ul>
+                <div class="primary_nav_links_side_bar ">
+                    <ul class="primary-nav-links row1">
+
+                        <li onclick= closesidebar()><a href="#">Home</a></li>
+                        <li><a href="#"></a>Menu</li>
+                        <li><a href="#"></a>Contact Us</li>
+                        <li><a href="#"></a>About Us</li>
+
+                    </ul>
+                    <ul class="secondary-nav-links row1">
+                        <li><a href="#">Sign in</a></li>
+                        <li><a href="#"></a>Sign Up</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -107,5 +121,15 @@
             </div>
         </div>
     </div>
+    <script>
+        function showsidebar(){
+    const primary_nav_links_side_bar = document.querySelector('.primary_nav_links_side_bar')
+    primary_nav_links_side_bar.style.display = 'flex'
+    }
+        function closesidebar(){
+    const primary_nav_links_side_bar = document.querySelector('.primary_nav_links_side_bar')
+    primary_nav_links_side_bar.style.display = 'none'
+    }
+    </script>
 </body>
 </html>

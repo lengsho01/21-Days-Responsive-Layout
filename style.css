@@ -109,9 +109,20 @@ li{
     color: aliceblue;
 }
 .social-media-handles{
-
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.social-media-handles li{
+    margin: 0;
+    width: 100%;
 }
 .social-media{
+
+}
+.reserves{
+    width: 100%;
+    text-align: center;
 }
 .socail-medias-wrapper{
      width: 100%;

@@ -144,13 +144,14 @@ li{
     width: 250px;
     height: 100vh;
     z-index: 999;
-    background-color: rgba(27, 182, 105, 0.74);
-    display: flex;
+    background-color: rgba(9, 114, 62, 0.959);
+    
+    display: none;
     flex-direction: column;
     justify-content: space-between;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 650px) {
     .hidebar{
         display: none;
     }   
@@ -158,4 +159,10 @@ li{
         display: flex;
         flex-direction: column;
     }
+}
+@media (min-width: 650px) {
+    .menubar{
+        display: none;
+    }
+    
 }

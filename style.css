@@ -58,6 +58,9 @@ img{
 ul{
     list-style: none;
 }
+ul li a{
+    color: aliceblue;
+}
 .nav-links, .primary-nav-links, .secondary-nav-links a{
     color: aliceblue;
 
